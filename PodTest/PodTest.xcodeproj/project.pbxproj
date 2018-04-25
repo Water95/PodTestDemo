@@ -35,6 +35,7 @@
 		B970A06920905CA60094C911 /* TestC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestC.h; sourceTree = "<group>"; };
 		B970A06B20905CA60094C911 /* TestB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestB.h; sourceTree = "<group>"; };
 		B970A06C20905CA60094C911 /* TestB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestB.m; sourceTree = "<group>"; };
+		B970A092209084570094C911 /* TestHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 				B970A06420905CA60094C911 /* TestA */,
 				B970A06720905CA60094C911 /* TestC */,
 				B970A06A20905CA60094C911 /* TestB */,
+				B970A092209084570094C911 /* TestHeader.h */,
 			);
 			name = Test;
 			path = ../Test;

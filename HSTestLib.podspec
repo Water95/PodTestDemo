@@ -7,8 +7,20 @@ Pod::Spec.new do |s|
   s.author       = {"haohaisheng" => "haohaisheng95@163.com"}
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/Water95/PodTestDemo.git", :tag => s.version}
-  s.source_files  = "Test", "Test/**/*.{h,m}"
+  s.source_files  = "Test", "Test/TestHeader.h"
   s.requires_arc = true
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency  'AFNetworking', '~> 1.0'
+
+  s.subspec 'TestA' do |ss|
+  ss.source_files = 'Test/TestA/*.{h,m}'
+  end
+
+  s.subspec 'TestB' do |ss|
+  ss.source_files = 'Test/TestB/*.{h,m}'
+  end
+
+  s.subspec 'TestC' do |testc|
+  testc.source_files = 'Test/TestC/*.{h,m}'
+  end
+
 end
