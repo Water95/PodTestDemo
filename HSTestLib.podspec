@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HSTestLib"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "This is a TestLib."
   s.homepage     = "https://www.jianshu.com/u/d1f45ccb900f"
   s.license      = "MIT"
@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.source_files  = "Test", "Test/**/*.{h,m}"
   s.requires_arc = true
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency  'AFNetworking', '~> 1.0'
 end
