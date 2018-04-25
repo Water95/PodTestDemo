@@ -13,9 +13,9 @@
 		B970A04A208F1D4F0094C911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B970A049208F1D4F0094C911 /* Assets.xcassets */; };
 		B970A04D208F1D4F0094C911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B970A04B208F1D4F0094C911 /* LaunchScreen.storyboard */; };
 		B970A050208F1D4F0094C911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B970A04F208F1D4F0094C911 /* main.m */; };
-		B970A05C208F1D9A0094C911 /* TestA.m in Sources */ = {isa = PBXBuildFile; fileRef = B970A05B208F1D9A0094C911 /* TestA.m */; };
-		B970A05F208F1DAB0094C911 /* TestB.m in Sources */ = {isa = PBXBuildFile; fileRef = B970A05E208F1DAB0094C911 /* TestB.m */; };
-		B970A062208F1DB60094C911 /* TestC.m in Sources */ = {isa = PBXBuildFile; fileRef = B970A061208F1DB60094C911 /* TestC.m */; };
+		B970A06D20905CA60094C911 /* TestA.m in Sources */ = {isa = PBXBuildFile; fileRef = B970A06620905CA60094C911 /* TestA.m */; };
+		B970A06E20905CA60094C911 /* TestC.m in Sources */ = {isa = PBXBuildFile; fileRef = B970A06820905CA60094C911 /* TestC.m */; };
+		B970A06F20905CA60094C911 /* TestB.m in Sources */ = {isa = PBXBuildFile; fileRef = B970A06C20905CA60094C911 /* TestB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +29,12 @@
 		B970A04C208F1D4F0094C911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B970A04E208F1D4F0094C911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B970A04F208F1D4F0094C911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B970A05A208F1D9A0094C911 /* TestA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestA.h; sourceTree = "<group>"; };
-		B970A05B208F1D9A0094C911 /* TestA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestA.m; sourceTree = "<group>"; };
-		B970A05D208F1DAB0094C911 /* TestB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestB.h; sourceTree = "<group>"; };
-		B970A05E208F1DAB0094C911 /* TestB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestB.m; sourceTree = "<group>"; };
-		B970A060208F1DB60094C911 /* TestC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestC.h; sourceTree = "<group>"; };
-		B970A061208F1DB60094C911 /* TestC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestC.m; sourceTree = "<group>"; };
+		B970A06520905CA60094C911 /* TestA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestA.h; sourceTree = "<group>"; };
+		B970A06620905CA60094C911 /* TestA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestA.m; sourceTree = "<group>"; };
+		B970A06820905CA60094C911 /* TestC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestC.m; sourceTree = "<group>"; };
+		B970A06920905CA60094C911 /* TestC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestC.h; sourceTree = "<group>"; };
+		B970A06B20905CA60094C911 /* TestB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestB.h; sourceTree = "<group>"; };
+		B970A06C20905CA60094C911 /* TestB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 		B970A034208F1D4E0094C911 = {
 			isa = PBXGroup;
 			children = (
-				B970A056208F1D8E0094C911 /* Test */,
+				B970A06320905CA60094C911 /* Test */,
 				B970A03F208F1D4E0094C911 /* PodTest */,
 				B970A03E208F1D4E0094C911 /* Products */,
 			);
@@ -81,39 +81,40 @@
 			path = PodTest;
 			sourceTree = "<group>";
 		};
-		B970A056208F1D8E0094C911 /* Test */ = {
+		B970A06320905CA60094C911 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				B970A057208F1D8E0094C911 /* TestA */,
-				B970A059208F1D8E0094C911 /* TestB */,
-				B970A058208F1D8E0094C911 /* TestC */,
+				B970A06420905CA60094C911 /* TestA */,
+				B970A06720905CA60094C911 /* TestC */,
+				B970A06A20905CA60094C911 /* TestB */,
 			);
-			path = Test;
+			name = Test;
+			path = ../Test;
 			sourceTree = "<group>";
 		};
-		B970A057208F1D8E0094C911 /* TestA */ = {
+		B970A06420905CA60094C911 /* TestA */ = {
 			isa = PBXGroup;
 			children = (
-				B970A05A208F1D9A0094C911 /* TestA.h */,
-				B970A05B208F1D9A0094C911 /* TestA.m */,
+				B970A06520905CA60094C911 /* TestA.h */,
+				B970A06620905CA60094C911 /* TestA.m */,
 			);
 			path = TestA;
 			sourceTree = "<group>";
 		};
-		B970A058208F1D8E0094C911 /* TestC */ = {
+		B970A06720905CA60094C911 /* TestC */ = {
 			isa = PBXGroup;
 			children = (
-				B970A060208F1DB60094C911 /* TestC.h */,
-				B970A061208F1DB60094C911 /* TestC.m */,
+				B970A06820905CA60094C911 /* TestC.m */,
+				B970A06920905CA60094C911 /* TestC.h */,
 			);
 			path = TestC;
 			sourceTree = "<group>";
 		};
-		B970A059208F1D8E0094C911 /* TestB */ = {
+		B970A06A20905CA60094C911 /* TestB */ = {
 			isa = PBXGroup;
 			children = (
-				B970A05D208F1DAB0094C911 /* TestB.h */,
-				B970A05E208F1DAB0094C911 /* TestB.m */,
+				B970A06B20905CA60094C911 /* TestB.h */,
+				B970A06C20905CA60094C911 /* TestB.m */,
 			);
 			path = TestB;
 			sourceTree = "<group>";
@@ -188,12 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B970A06F20905CA60094C911 /* TestB.m in Sources */,
+				B970A06E20905CA60094C911 /* TestC.m in Sources */,
 				B970A045208F1D4E0094C911 /* ViewController.m in Sources */,
 				B970A050208F1D4F0094C911 /* main.m in Sources */,
 				B970A042208F1D4E0094C911 /* AppDelegate.m in Sources */,
-				B970A062208F1DB60094C911 /* TestC.m in Sources */,
-				B970A05C208F1D9A0094C911 /* TestA.m in Sources */,
-				B970A05F208F1DAB0094C911 /* TestB.m in Sources */,
+				B970A06D20905CA60094C911 /* TestA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
